@@ -8,7 +8,12 @@ td, th {
     border: 1px solid white
 }
 
-
+.col2 {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
+  
 .column-left{
   float: left;
   width: 30%;
