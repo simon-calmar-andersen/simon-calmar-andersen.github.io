@@ -5,10 +5,12 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "CV"
-      href: about.html
+    - text: "Research"
+      href: cv.html
+    - text: "Teaching"
+      href: teaching.htlm
       
 output:
   html_document:
-#    theme: united
+    theme: simplex
     css: style.css
