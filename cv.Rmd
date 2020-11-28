@@ -2,7 +2,7 @@
 title: "Research"
 ---
 
-*Journal articles*
+# Journal articles
 
 How to increase citizen coproduction : Replication and extension of existing research. / Andersen, Simon Calmar; Nielsen, Helena Skyt; Thomsen, Mette Kjærgaard.
 International Public Management Journal, Bind 23, Nr. 5, 09.2020, s. 696-712.
@@ -54,7 +54,7 @@ Parent Involvement, Socioeconomic Status and Reading Performance. / Andersen, Si
 Scandinavian Journal of Educational Research, 2020.
 
 
-2019
+## 2019
 
 
 Reducing Minority Discrimination at the Front Line - Combined Survey and Field Experimental Evidence. / Andersen, Simon Calmar; Guul, Thorbjørn Sejr.
@@ -67,7 +67,7 @@ The Unnoticed Influence of Peers on Educational Preferences. / Andersen, Simon C
 Behavioral Public Policy, 2019, s. 1-24.
 
 
-2018
+## 2018
 
 
 Randomised controlled trials in Scandinavian educational research. / Pontoppidan, Maiken; Keilow, Maria; Dietrichson, Jens; Solheim, Oddny Judith ; Opheim, Vibeke; Gustafson, Stefan; Andersen, Simon Calmar.
@@ -104,7 +104,7 @@ Political Pressure, Conformity Pressure, and Performance Information as Drivers 
 International Public Management Journal, Bind 21, Nr. 2, 2018, s. 213-242.
 
 
-2017
+## 2017
 
 
 Influence of motor skills training on children’s development evaluated in the Motor skills in PreSchool (MiPS) study-DK: study protocol for a randomized controlled trial, nested in a cohort study. / Hestbaek, Lise; Andersen, Sara Thurøe; Skovgaard, Thomas; Olesen, Line Groenholt ; Elmose, Mette ; Bleses, Dorthe; Andersen, Simon Calmar; Lauridsen, Henrik Hein.
@@ -129,7 +129,7 @@ Student-Centered Instruction and Academic Achievement: Linking Mechanisms of Edu
 British Journal of Sociology of Education, Bind 38, Nr. 4, 2017, s. 533-550.
 
 
-2016
+## 2016
 
 
 Bureaucratic Investments in Expertise: Evidence From a Randomized Controlled Field Trial. / Andersen, Simon Calmar; Moynihan, Donald P.
@@ -172,7 +172,7 @@ Reading intervention with a growth mindset approach improves children’s skills
 Proceedings of the National Academy of Sciences of the United States of America, Bind 113, Nr. 43, 2016, s. 12111-12113.
 
 
-2015
+## 2015
 
 
 Brugernes reaktion når det offentlige øger serviceniveauet. Resultater fra et lodtrækningsforsøg på skoleområdet. / Andersen, Simon Calmar; Nielsen, Helena Skyt; Thomsen, Mette Kjærgaard.
@@ -191,7 +191,7 @@ The Validity of Subjective Performance Measures : School Principals in Texas and
 Public Administration, Bind 93, Nr. 4, 2015, s. 1084-1101.
 
 
-2014
+## 2014
 
 
 Deliberative Democratic Governance. / Andersen, Simon Calmar; Loftager, Jørn.
@@ -204,7 +204,7 @@ Impact of Performance Management in Public and Private Organizations. / Hvidman,
 Journal of Public Administration Research and Theory, Bind 24, Nr. 1, 2014, s. 35-58.
 
 
-2013
+## 2013
 
 
 Coproduction and Equity in Public Service Delivery. / Jakobsen, Morten; Andersen, Simon Calmar.
@@ -217,21 +217,21 @@ Intensifying Social Exchange Relationships in Public Organizations: Evidence fro
 Journal of Policy Analysis and Management, Bind 32, Nr. 1, 2013, s. 60-82.
 
 
-2011
+## 2011
 
 
 Policy Implications of Limiting Immigrant Concentration in Danish Public Schools. / Andersen, Simon Calmar; Thomsen, Mette Kjærgaard.
 Scandinavian Political Studies, Bind 34, Nr. 1, 2011, s. 27-52.
 
 
-2010
+## 2010
 
 
 Policy Stability and Organizational Performance: Is There a Relationship? / Andersen, Simon Calmar; Mortensen, Peter Bjerre.
 Journal of Public Administration Research and Theory, Bind 20, Nr. 1, 2010, s. 1-22.
 
 
-2008
+## 2008
 
 
 Private schools and the parents that choose them. / Andersen, Simon Calmar.
@@ -244,7 +244,7 @@ The Impact of Public Management Reforms on Student Performance in Danish Schools
 Public Administration, Bind 86, Nr. 2, 2008, s. 541-558.
 
 
-2007
+## 2007
 
 
 Multilevel-modeller: en introduktion og et eksempel. / Andersen, Simon Calmar.
@@ -257,7 +257,7 @@ The Unintended Effects of Private School Competition. / Andersen, Simon Calmar; 
 Journal of Public Administration Research and Theory, Bind 17, Nr. 2, 2007, s. 335-356.
 
 
-2006
+## 2006
 
 
 Når New Public Management møder uddannelsessystemet. / Andersen, Simon Calmar.
@@ -270,7 +270,7 @@ Styring gennem autonomi? Et forskningsprojekt om politisk styring af de danske s
 Politica, Bind 38, Nr. 4, 2006, s. 426-445.
 
 
-2005
+## 2005
 
 
 How to Improve the Outcome of State Welfare Services : Governance in a Systems-Theoretical Perspective. / Andersen, Simon Calmar.
@@ -283,18 +283,16 @@ Smid ikke metoderne ud med badevandet. Epistemologisk konstruktivisme og dens me
 Dansk Sociologi, Bind 3, 2005, s. 45-60.
 
 
-2004
+## 2004
 
 
 Hvorfor bliver man ved med at evaluere folkeskolen? / Andersen, S.C.
 Politica, Bind 36, Nr. 4, 2004, s. 452-468.
 
-Publikation: Bidrag til tidsskrift/Konferencebidrag i tidsskrift /Bidrag til avis › Tidsskriftartikel › Forskning
-2002
+## 2002
 
 
 Anmeldelse af Erik Oddvar Eriksen, Demokratiets sorte hull - om spenningen mellom fag og politikk i velferdsstaten, Oslo: Abstrakt forlag, 2001, 283 s. / Andersen, S.C.
 Politica, Bind 34, Nr. 3, 2002, s. 344-346.
 
-Publikation: Bidrag til tidsskrift/Konferencebidrag i tidsskrift /Bidrag til avis › Review › Forskning
 
