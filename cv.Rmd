@@ -1,5 +1,12 @@
 ---
 title: "Research"
+
+output: 
+  html_document:
+toc: true
+toc_depth: 2
+toc_float:
+  collapsed: true
 ---
 
 # Journal articles
@@ -296,5 +303,83 @@ Politica, Bind 36, Nr. 4, 2004, s. 452-468.
 
 Anmeldelse af Erik Oddvar Eriksen, Demokratiets sorte hull - om spenningen mellom fag og politikk i velferdsstaten, Oslo: Abstrakt forlag, 2001, 283 s. / Andersen, S.C.
 Politica, Bind 34, Nr. 3, 2002, s. 344-346.
+
+
+
+
+# Book chapters
+
+
+
+## 2017
+
+
+Coproduction of Public Services. / Andersen, Simon Calmar; Jakobsen, Morten; Serritzlew, Søren; Thomsen, Mette Kjærgaard. Experiments in Public Management Research: Challenges and Contributions. red. / Oliver James; Sebastian R. Jilke; Gregg G. Van Ryzin. Cambridge University Press, 2017. s. 329-344.
+
+
+## 2011
+
+
+Skolens autonomi. / Andersen, Simon Calmar.
+Ledelse, læring og trivsel i folkeskolerne. red. / Simon Calmar Andersen; Søren C. Winter. København : SFI - Det nationale Forskningscenter for Velfærd, 2011. s. 69-76.
+
+
+## 2010
+
+
+School segregation in Danish public schools. / Andersen, Simon Calmar; Jeppesen, Mette; Kirk, Mette; Rasmussen, Christian Lamhauge; Slot, Rikke.
+International perspectives on countering school segregation. red. / Joep Bakker; Eddie Denessen; Dorothee Peters; Guido Walraven. Apeldoorn : Garant Uitgevers nv, 2010. s. 99-113.
+
+
+## 2007
+
+
+Politisk styring af uddannelsessystemet - en systemteoretisk betragtning. / Andersen, Simon Calmar.
+Luhmann og dannelse. red. / Michael Paulsen; Lars Qvortrup. København : Unge Pædagoger, 2007. s. 231-251.
+
+
+
+
+Vad händer när offentliga skolor utsätts för konkurrens från friskolor? Erfarenheter från Danmark. / Andersen, Simon Calmar; Serritzlew, Søren.
+Friskolorna och framtiden - segregation, kostnader och effektivitet. red. / Anders Lindbom. Stockholm : Institutet för Framtidsstudier, 2007. s. 131-148.
+
+
+## 2006
+
+
+The Impact of Public Management Reforms on Quality and Equity: Statistical Evidence from Danish Schools. / Andersen, Simon Calmar.
+Ikke angivet. Department of Political Science, University of Aarhus, 2006. s. 1-17.
+
+
+## 2005
+
+
+A nested game theory of politics, markets, and school. / Andersen, S.C.; Andersen, L.B.
+Ikke angivet. Department of Political Science, University of Aarhus, 2005.
+
+
+
+
+Deliberative democratic governance. / Andersen, S.C.; Loftager, J.
+Ikke angivet. Department of Political Science, University of Aarhus, 2005.
+
+
+
+
+Epistemologisk konstruktivisme og dens metodologiske konsekvenser. / Andersen, S.C.
+Ikke angivet. Department of Political Science, University of Aarhus, 2005.
+
+
+
+
+Selection and Competition Effects in a Large-Scale School Voucher System. / Andersen, S.C.
+Ikke angivet. Department of Political Science, University of Aarhus, 2005.
+
+
+
+
+The unintended effects of private school competition. / Andersen, S.C.; Serritzlew, S.
+Ikke angivet. Department of Political Science, University of Aarhus, 2005.
+
 
 

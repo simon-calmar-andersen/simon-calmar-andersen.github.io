@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -79,7 +79,6 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="style.css" type="text/css" />
 
 
 
@@ -114,33 +113,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 41px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -260,6 +259,78 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+#TOC {
+  display: none !important;
+}
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -267,6 +338,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -408,9 +489,43 @@ $(document).ready(function () {
 <p>Anmeldelse af Erik Oddvar Eriksen, Demokratiets sorte hull - om spenningen mellom fag og politikk i velferdsstaten, Oslo: Abstrakt forlag, 2001, 283 s. / Andersen, S.C. Politica, Bind 34, Nr. 3, 2002, s. 344-346.</p>
 </div>
 </div>
+<div id="book-chapters" class="section level1">
+<h1>Book chapters</h1>
+<div id="section-16" class="section level2">
+<h2>2017</h2>
+<p>Coproduction of Public Services. / Andersen, Simon Calmar; Jakobsen, Morten; Serritzlew, Søren; Thomsen, Mette Kjærgaard. Experiments in Public Management Research: Challenges and Contributions. red. / Oliver James; Sebastian R. Jilke; Gregg G. Van Ryzin. Cambridge University Press, 2017. s. 329-344.</p>
+</div>
+<div id="section-17" class="section level2">
+<h2>2011</h2>
+<p>Skolens autonomi. / Andersen, Simon Calmar. Ledelse, læring og trivsel i folkeskolerne. red. / Simon Calmar Andersen; Søren C. Winter. København : SFI - Det nationale Forskningscenter for Velfærd, 2011. s. 69-76.</p>
+</div>
+<div id="section-18" class="section level2">
+<h2>2010</h2>
+<p>School segregation in Danish public schools. / Andersen, Simon Calmar; Jeppesen, Mette; Kirk, Mette; Rasmussen, Christian Lamhauge; Slot, Rikke. International perspectives on countering school segregation. red. / Joep Bakker; Eddie Denessen; Dorothee Peters; Guido Walraven. Apeldoorn : Garant Uitgevers nv, 2010. s. 99-113.</p>
+</div>
+<div id="section-19" class="section level2">
+<h2>2007</h2>
+<p>Politisk styring af uddannelsessystemet - en systemteoretisk betragtning. / Andersen, Simon Calmar. Luhmann og dannelse. red. / Michael Paulsen; Lars Qvortrup. København : Unge Pædagoger, 2007. s. 231-251.</p>
+<p>Vad händer när offentliga skolor utsätts för konkurrens från friskolor? Erfarenheter från Danmark. / Andersen, Simon Calmar; Serritzlew, Søren. Friskolorna och framtiden - segregation, kostnader och effektivitet. red. / Anders Lindbom. Stockholm : Institutet för Framtidsstudier, 2007. s. 131-148.</p>
+</div>
+<div id="section-20" class="section level2">
+<h2>2006</h2>
+<p>The Impact of Public Management Reforms on Quality and Equity: Statistical Evidence from Danish Schools. / Andersen, Simon Calmar. Ikke angivet. Department of Political Science, University of Aarhus, 2006. s. 1-17.</p>
+</div>
+<div id="section-21" class="section level2">
+<h2>2005</h2>
+<p>A nested game theory of politics, markets, and school. / Andersen, S.C.; Andersen, L.B. Ikke angivet. Department of Political Science, University of Aarhus, 2005.</p>
+<p>Deliberative democratic governance. / Andersen, S.C.; Loftager, J. Ikke angivet. Department of Political Science, University of Aarhus, 2005.</p>
+<p>Epistemologisk konstruktivisme og dens metodologiske konsekvenser. / Andersen, S.C. Ikke angivet. Department of Political Science, University of Aarhus, 2005.</p>
+<p>Selection and Competition Effects in a Large-Scale School Voucher System. / Andersen, S.C. Ikke angivet. Department of Political Science, University of Aarhus, 2005.</p>
+<p>The unintended effects of private school competition. / Andersen, S.C.; Serritzlew, S. Ikke angivet. Department of Political Science, University of Aarhus, 2005.</p>
+</div>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -443,6 +558,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
