@@ -1,5 +1,7 @@
 ---
-title: "Personal Website"
+title: "Home"
 ---
 
-Hello, World!
+Simon Calmar Andersen
+
+![](Billede SCA.jpg)
