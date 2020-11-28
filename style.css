@@ -7,3 +7,21 @@ img {
 td, th {
     border: 1px solid white
 }
+
+
+.column-left{
+  float: left;
+  width: 30%;
+  text-align: left;
+}
+.column-center{
+  display: inline-block;
+  width: 69%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 69%;
+  text-align: left;
+}
+

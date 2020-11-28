@@ -1,12 +1,14 @@
 ---
 title: "Simon Calmar Andersen"
+
 ---
 
 
 
-**Professor** 
+<div class="column-left">
+**Professor**
 
-[Department of Political Science](https://ps.au.dk/)
+[Department of Political Science](https://ps.au.dk/) 
 
 [Aarhus University](https://www.au.dk/)
 
@@ -31,4 +33,15 @@ twitter: ['@SimonCalmar'](https://twitter.com/SimonCalmar)
 
 linkedin: [linkedin.com/in/simon-calmar-andersen-16aa428](https://www.linkedin.com/in/simon-calmar-andersen-16aa428/)
 
+</div>
+<div class="column-right">
+
+I am a Professor at Department of Political Science, Aarhus University. I study education policy from various perspectives including effects of organization (instruction time, co-teaching), coproduction (involving parents in shared-book reading), integration of minority students, and much more.
+</div>
+
 ![](Billede SCA.jpg)
+
+
+
+
+
