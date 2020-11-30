@@ -6,6 +6,8 @@ title: "Simon Calmar Andersen"
 
 
 <div class="column-left">
+![](Billede SCA.jpg)
+
 **Professor**
 
 [Department of Political Science](https://ps.au.dk/) 
@@ -36,10 +38,10 @@ linkedin: [linkedin.com/in/simon-calmar-andersen-16aa428](https://www.linkedin.c
 </div>
 <div class="column-right">
 
-I am a Professor at Department of Political Science, Aarhus University. I study education policy from various perspectives including effects of organization (instruction time, co-teaching), coproduction (involving parents in shared-book reading), integration of minority students, and much more.
+I am a Professor at Department of Political Science, Aarhus University. I study education policy from various perspectives. Together with good collageues I study the effects of how teaching is organized (What is the effect of increasing [instruction time](https://doi.org/10.1073/pnas.1516686113) or having an [extra teacher](https://doi.org/10.1093/jeea/jvy048) in the classroom?). We study study the effect of schools' collaboration with parents (What is the effect of involving parents in [shared-book reading](https://doi.org/10.1073/pnas.1607946113) and how does such involvement influence [parents' feedback to the political system](https://doi.org/10.1111/ajps.12360)?). We have examined the effects of performance information (What is the effect of providing teacher and parents with [information on student test results](https://doi.org/10.1093/jopart/muz036) and of [performance management in public schools](https://doi.org/10.1111/j.1467-9299.2008.00717.x) and in [private schools](https://doi.org/10.1093/jopart/mut019)?)
 </div>
 
-![](Billede SCA.jpg)
+
 
 
 
