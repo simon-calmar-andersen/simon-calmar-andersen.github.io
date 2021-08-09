@@ -4,6 +4,10 @@ title: "Teaching"
 
 I supervise master and PhD projects within public administration especially within education policy.
 
+# Teaching in the spring 2022:
+
+[Ulighed i uddannelse. Bachelor seminar 2022](https://simon-calmar-andersen.github.io/Ulighed-i-uddannelse-22/)
+
 # Teaching in the spring 2021:
 
-[Ulighed i uddannelse. Bachelor seminar](https://simon-calmar-andersen.github.io/Ulighed-i-uddannelse/)
+[Ulighed i uddannelse. Bachelor seminar 2021](https://simon-calmar-andersen.github.io/Ulighed-i-uddannelse/)
