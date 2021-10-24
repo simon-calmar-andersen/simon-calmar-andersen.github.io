@@ -11,14 +11,30 @@ output:
 
 # Journal articles
 
+## 2021
+
+How first-language instruction transfers to majority-language skills. / Andersen, Simon Calmar; Guul, Thorbjørn Sejr; Humlum, Maria Knoth. Nature Human Behaviour,  2021. https://rdcu.be/czIQi
+
+Academic self perceptions in a national Danish sample: Predictive power and development from grade 4 to 9. / Gensowski, Miriam; Ludeke, Steven; John, Oliver P.; Andersen, Simon Calmar. Journal of Research in Personality, Vol. 92, 104090, 06.2021.
+
+A Cluster-Randomized Trial Measuring the Effects of a Digital Learning Tool Supporting Decoding and Reading for Meaning in Grade 2. / Gissel, Stig Toke; Andersen, Simon Calmar. Journal of Computer Assisted Learning, Vol. 37, No. 2, 04.2021, p. 287-304.
+
+Are impacts of early interventions in the Scandinavian welfare state consistent with a Heckman curve? A meta-analysis. / Rosholm, Michael; Paul, Alexander; Bleses, Dorthe; Højen, Anders; S. Dale, Philip; Jensen, Peter; M. Justice, Laura; Svarer, Michael; Calmar Andersen, Simon. Journal of Economic Surveys, Vol. 35, No. 1, 02.2021, p. 106-140.
+
+
+Can Reminders and Incentives Improve Implementation Within Government? Evidence from a Field Experiment. / Andersen, Simon Calmar; Hvidman, Ulrik. Journal of Public Administration Research and Theory, Vol. 31, No. 1, 01.2021, p. 234-249.
+
+
+Development and validation of the Danish Big Five Inventory-2: Domain- and facet-level structure, construct validity, and reliability. / Vedel, Anna; Wellnitz, Kaare Bro; Ludeke, Steven; Soto, Christopher J.; John, Oliver P.; Andersen, Simon Calmar. European Journal of Psychological Assessment, Vol. 37, No. 1, 01.2021, p. 42-51.
+
+
 ## 2020
 
 How to increase citizen coproduction : Replication and extension of existing research. / Andersen, Simon Calmar; Nielsen, Helena Skyt; Thomsen, Mette Kjærgaard.
 International Public Management Journal, Bind 23, Nr. 5, 09.2020, s. 696-712.
 
 
-Development and validation of the Danish Big Five Inventory-2: Domain- and facet-level structure, construct validity, and reliability. / Vedel, Anna; Wellnitz, Kaare Bro; Ludeke, Steven; Soto, Christopher J.; John, Oliver P.; Andersen, Simon Calmar.
-European Journal of Psychological Assessment, 24.03.2020.
+
 
 
 
@@ -29,8 +45,6 @@ Journal of the European Economic Association, Bind 18, Nr. 1, 02.2020, s. 469-50
 
 
 
-A Cluster-Randomized Trial Measuring the Effects of a Digital Learning Tool Supporting Decoding and Reading for Meaning in Grade 2. / Gissel, Stig Toke; Andersen, Simon Calmar.
-Journal of Computer Assisted Learning, 2020.
 
 
 
@@ -41,8 +55,7 @@ Journal of Personality, Bind 88, Nr. 5, 2020, s. 925-939.
 
 
 
-Can Reminders and Incentives Improve Implementation Within Government? Evidence from a Field Experiment. / Andersen, Simon Calmar; Hvidman, Ulrik.
-Journal of Public Administration Research and Theory, 2020.
+
 
 
 
