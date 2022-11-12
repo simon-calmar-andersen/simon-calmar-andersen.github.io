@@ -13,18 +13,25 @@
 
 <title>Simon Calmar Andersen</title>
 
-<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -36,11 +43,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -53,32 +55,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -89,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -109,40 +83,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 41px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h2 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h3 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h4 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h5 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
-.section h6 {
-  padding-top: 46px;
-  margin-top: -46px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -170,7 +120,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -182,7 +132,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -193,10 +143,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -208,7 +171,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -275,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -301,7 +263,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -319,51 +281,91 @@ $(document).ready(function () {
  
 </p>
 <p><strong>Director</strong></p>
-<p><a href="https://childresearch.au.dk/">TrygFonden’s Centre for Child Research</a></p>
+<p><a href="https://childresearch.au.dk/">TrygFonden’s Centre for Child
+Research</a></p>
 <p><a href="https://www.au.dk/">Aarhus University</a></p>
 <p>
  
 </p>
+<strong>Curriculum Vitae</strong> <a
+href="https://simon-calmar-andersen.github.io/docs/CV_SCA.pdf">CV</a>
+<p>
+ 
+</p>
 <p><strong>Contact</strong></p>
-<p>mail: <a href="mailto:sca@ps.au.dk" class="email">sca@ps.au.dk</a></p>
+<p>mail: <a href="mailto:sca@ps.au.dk"
+class="email">sca@ps.au.dk</a></p>
 <p>tel: +45 61 66 65 01</p>
-<p>twitter: <a href="https://twitter.com/SimonCalmar">@SimonCalmar</a></p>
-<p>linkedin: <a href="https://www.linkedin.com/in/simon-calmar-andersen-16aa428/">linkedin.com/in/simon-calmar-andersen-16aa428</a></p>
-<p>google scholar: <a href="https://scholar.google.dk/citations?user=_e8kP80AAAAJ&amp;hl=da">link</a></p>
+<p>twitter: <a
+href="https://twitter.com/SimonCalmar">@SimonCalmar</a></p>
+<p>linkedin: <a
+href="https://www.linkedin.com/in/simon-calmar-andersen-16aa428/">linkedin.com/in/simon-calmar-andersen-16aa428</a></p>
+<p>google scholar: <a
+href="https://scholar.google.dk/citations?user=_e8kP80AAAAJ&amp;hl=da">link</a></p>
 </div>
 <div class="column-right">
-<p>I am a Professor at Department of Political Science, Aarhus University and Director of TrygFonden’s Centre for Child Research, also at Aarhus University, Denmark. Together with good colleagues from multiple disciplines (political science, economics, psychology), I study education policy from various perspectives.</p>
+<p>I am a Professor at Department of Political Science, Aarhus
+University and Director of TrygFonden’s Centre for Child Research, also
+at Aarhus University, Denmark. Together with good colleagues from
+multiple disciplines (political science, economics, psychology), I study
+education policy from various perspectives.</p>
 <p><strong>The organization of teaching</strong></p>
 <ul>
-<li><p>What are the effects of increasing <a href="https://doi.org/10.1073/pnas.1516686113">instruction time</a>?</p></li>
-<li><p>or having an <a href="https://doi.org/10.1093/jeea/jvy048">extra teacher</a> in the classroom?</p></li>
+<li><p>What are the effects of increasing <a
+href="https://doi.org/10.1073/pnas.1516686113">instruction
+time</a>?</p></li>
+<li><p>or having an <a href="https://doi.org/10.1093/jeea/jvy048">extra
+teacher</a> in the classroom?</p></li>
 </ul>
 <p><strong>Collaboration with parents</strong></p>
 <ul>
-<li><p>What is the effect of involving parents in <a href="https://doi.org/10.1073/pnas.1607946113">shared-book reading</a>?</p></li>
-<li><p>and how does such involvement influence <a href="https://doi.org/10.1111/ajps.12360">parents’ feedback to the political system</a>?</p></li>
+<li><p>What is the effect of involving parents in <a
+href="https://doi.org/10.1073/pnas.1607946113">shared-book
+reading</a>?</p></li>
+<li><p>and how does such involvement influence <a
+href="https://doi.org/10.1111/ajps.12360">parents’ feedback to the
+political system</a>?</p></li>
 </ul>
 <p><strong>Performance information</strong></p>
 <ul>
-<li>What is the effect of providing teacher and parents with <a href="https://doi.org/10.1093/jopart/muz036">information on student test results</a></li>
-<li>What are the effects of <a href="https://doi.org/10.1111/j.1467-9299.2008.00717.x">performance management in public schools</a></li>
-<li>and in <a href="https://doi.org/10.1093/jopart/mut019">private schools</a>?</li>
+<li>What is the effect of providing teacher and parents with <a
+href="https://doi.org/10.1093/jopart/muz036">information on student test
+results</a></li>
+<li>What are the effects of <a
+href="https://doi.org/10.1111/j.1467-9299.2008.00717.x">performance
+management in public schools</a></li>
+<li>and in <a href="https://doi.org/10.1093/jopart/mut019">private
+schools</a>?</li>
 </ul>
 <p><strong>Minority students</strong></p>
 <ul>
-<li><p>How are students with <a href="https://doi.org/10.1093/jopart/mux006">minority background met by the schools</a>?</p></li>
-<li><p>How can <a href="https://doi.org/10.1093/jopart/muy083">negative attitudes be reduced</a>?</p></li>
-<li><p>and what is the effect of an <a href="https://rdcu.be/czIQi">asset-based approach to first language instruction</a>?</p></li>
+<li><p>How are students with <a
+href="https://doi.org/10.1093/jopart/mux006">minority background met by
+the schools</a>?</p></li>
+<li><p>How can <a href="https://doi.org/10.1093/jopart/muy083">negative
+attitudes be reduced</a>?</p></li>
+<li><p>and what is the effect of an <a
+href="https://rdcu.be/czIQi">asset-based approach to first language
+instruction</a>?</p></li>
 </ul>
 <p><strong>Implementation of school interventions</strong></p>
 <ul>
-<li><p>How can schools be <a href="https://doi.org/10.1093/jopart/muaa022">nudged to implement</a> new programs?</p></li>
-<li><p>and how can evidence-based programs be <a href="https://hceconomics.uchicago.edu/research/working-paper/implementing-educational-interventions-scale">scaled up</a>?</p></li>
+<li><p>How can schools be <a
+href="https://doi.org/10.1093/jopart/muaa022">nudged to implement</a>
+new programs?</p></li>
+<li><p>and how can evidence-based programs be <a
+href="https://hceconomics.uchicago.edu/research/working-paper/implementing-educational-interventions-scale">scaled
+up</a>?</p></li>
 </ul>
 <p><strong>Socio-emotional skills</strong></p>
 <ul>
-<li><p>How do parental education relate to educational achievements and socio-emotional skills among <a href="https://doi.org/10.1037/pspp0000314">biological and adopted childen</a>?</p></li>
-<li><p>and how do <a href="https://doi.org/10.1111/jopy.12538">socio-emotional skills related to academic skills</a>?</p></li>
+<li><p>How do parental education relate to educational achievements and
+socio-emotional skills among <a
+href="https://doi.org/10.1037/pspp0000314">biological and adopted
+childen</a>?</p></li>
+<li><p>and how do <a
+href="https://doi.org/10.1111/jopy.12538">socio-emotional skills related
+to academic skills</a>?</p></li>
 </ul>
 </div>
 
@@ -394,7 +396,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
