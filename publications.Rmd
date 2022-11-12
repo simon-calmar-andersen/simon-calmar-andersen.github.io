@@ -10,9 +10,9 @@ output:
       collapsed: true
 
 
-bibliography: docs/publications.bib: 
-                sort=year
+bibliography: docs/publications.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl
+# csl: https://raw.githubusercontent.com/simon-calmar-andersen/simon-calmar-andersen.github.io/main/docs/bibliography_style_year.csl
 
 nocite: '@*'
 
