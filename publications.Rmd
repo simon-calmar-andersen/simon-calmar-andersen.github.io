@@ -1,0 +1,20 @@
+---
+title: "Publications (peer reviewed)"
+author: "Simon Calmar Andersen"
+date: "2022-11-12"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float:
+      collapsed: true
+
+
+bibliography: docs/publications.bib: 
+                sort=year
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl
+
+nocite: '@*'
+
+---
+
