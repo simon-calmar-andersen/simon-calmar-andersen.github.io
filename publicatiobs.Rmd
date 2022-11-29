@@ -15,6 +15,12 @@ csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa
 
 ---
 
+# Working papers
+
+
+Andersen, Simon Calmar, Simon Tranberg Bodilsen, Mikkel Aagaard Houmark, and Helena Skyt Nielsen (2022), Fade-Out of Educational Interventions. Statistical and Substantive Sources. Working paper [link]
+
+
 # Publications (peer reviewed)
 
 

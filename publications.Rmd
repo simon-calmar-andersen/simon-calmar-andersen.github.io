@@ -1,7 +1,7 @@
 ---
-title: "Publications (peer reviewed)"
+title: "Publications"
 author: "Simon Calmar Andersen"
-date: "2022-11-12"
+#date: "2022-11-12"
 output: 
   html_document:
     toc: true
@@ -21,3 +21,14 @@ nocite: '@*'
 
 ---
 
+
+# Working papers
+
+
+Andersen, Simon Calmar, Simon Tranberg Bodilsen, Mikkel Aagaard Houmark, and Helena Skyt Nielsen (2022), Fade-Out of Educational Interventions. Statistical and Substantive Sources. Working paper [link]
+
+Andersen, Simon Calmar, and Ulrik Hvidman (2020), Implementing Educational Interventions at Scale. Working paper [link]
+
+Andersen, Simon Calmar, Thorbjørn Sejr Guul, and Maria Knoth Humlum (2019), Instruction Time, Information, and Student Achievement. Evidence from a Field Experiment. Working paper [link]
+
+# Publications (peer reviewed)
