@@ -1,5 +1,5 @@
 ---
-title: "publications"
+title: "Publications"
 author: "Simon Calmar Andersen"
 date: "2022-11-12"
 output: 

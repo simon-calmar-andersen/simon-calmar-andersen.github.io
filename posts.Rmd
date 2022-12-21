@@ -2,8 +2,101 @@
 title: "Posts"
 author: "Simon Calmar Andersen"
 date: "2022-12-21"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float:
+      collapsed: true
 ---
 
-# Links to recent letters and posts in Danish Media.
+#  Flugten fra folkeskolen?
+
+**Indlæg bragt i Politiken 25. december 2022** 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+Med jævne mellemrum præsenterer medierne undersøgelser, der viser, hvordan andelen af elever, som går i privatskole (eller mere præcist "frie grundskoler"), er steget de seneste år. Det skorter sjældent på politikere, eksperter og andre meningsdannere, som mener at vide, hvad der er forklaringen på denne stigning. Der henvises for eksempel til folkeskolereformen fra 2014 med dens øgede timetal, inklusionsreformen fra 2012 med dens ambition om at flere elever med særlige behov skulle inkluderes i den almindelige undervisning, eller kommunalreformen fra 2007, der førte til skolelukninger på landet og åbning af private protestskoler.
+
+Men her kommer en lille quiz: I hvilket årstal bragte Politiken en artikel under overskriften "Flugten fra folkeskolen"? ... Ja, det er der (mindst) to rigtige svar på: Det ene er rigtige svar er 2022 (jf. artikel fra 22. marts "Flugten fra folkeskole til privatskoler udvikler sig voldsomt og hurtigt"). Det andet rigtige svar er 1984 (8. august). For snart 40 år siden kunne man altså læse i Politiken om "flugten fra folkeskolen", som på det tidspunkt havde været i gang i hvert fald fem år. Der er altså ikke tale om en ny udvikling, som kan forklares af de senere års reformer, men en udvikling som går over 40 år tilbage.
+
+Figuren her på siden er dannet på baggrund af tal fra nye og gamle publikationer fra (Børne- og) Undervisningsministeriet [@bang_frie_2003] [@undervisningsministeriet_udvikling_2014]. Trods manglende data fra nogle årstal viser figuren støt stigende andel af børn, der går i de frie grundskoler. Fra 1970 til 1980 lå andelen stabilt på 6-7 %. Men de følgende cirka 40 år er den steget med cirka 12 procentpoint til omkring 19 %. Det er en stigning på 0,3 procentpoint eller næsten 1 procentpoint hvert tredje år. Udviklingen fladede lidt ud i slut-'90'erne, men fortsatte igen i hvert fald fra 2007 og frem til i dag.
+
+I Politikens artikel fra 1984 ville daværende undervisningsminister Bertel Haarder standse "flugten fra kommuneskolerne" ved at opfordre kommunerne til at åbne skolegrænserne, så forældrene kunne få flere skoler at vælge imellem. Der blev sidenhen indført frit skolevalg - også på tværs af kommunegrænser - uden at det i sig selv har bremset udviklingen.
+
+```{r, echo=FALSE}
+library("readxl")
+library(tidyverse)
+library(ggplot2)
+
+# xls files
+privskole <- read_excel("privskole_dispindkomst.xls")
+
+figure <- ggplot(privskole, aes(x=År, y = Privatskole)) +
+  geom_point( ) +
+  geom_line( ) +
+  scale_y_continuous(
+    name = "Andel elever i frie grundskoler",
+    labels = scales::percent,
+    limits = c(0, 0.2),
+    )
+figure
+
+# max_first  <- 0.2 # max(privskole$Privatskole)   # Specify max of first y axis
+# max_second <- 200000 # max(privskole$Indkomst) # Specify max of second y axis
+# min_first  <- 0.05 # min(privskole$Privatskole)   # Specify min of first y axis
+# min_second <- 25000 # min(privskole$Indkomst) # Specify min of second y axis
+# 
+# # scale and shift variables calculated based on desired mins and maxes
+# scale = (max_second - min_second)/(max_first - min_first)
+# shift = min_first - min_second
+# 
+# # Function to scale secondary axis
+# scale_function <- function(x, scale, shift){
+#   return ((x)*scale - shift)
+# }
+# 
+# # Function to scale secondary variable values
+# inv_scale_function <- function(x, scale, shift){
+#   return ((x + shift)/scale)
+# }
+# 
+# figure1 <- ggplot(privskole, aes(x=År)) + 
+#   geom_point( aes(y = Privatskole)) +
+#   geom_line( aes(y = inv_scale_function(Indkomst, scale, shift))) +
+#   scale_y_continuous(
+#     name = "Andel elever i frie grundskoler",
+#     limits = c(0, 0.3),
+#     sec.axis = sec_axis(~scale_function(., scale, shift), name="Disponibel indkomst", labels = scales::comma)
+#   )
+# figure1
+```
+
+```{r, echo=FALSE}
+# figure2 <- ggplot(privskole, aes(x=Indkomst, y = Privatskole)) + 
+#   geom_point( ) +
+#   scale_y_continuous(
+#     name = "Andel elever i frie grundskoler",
+#   )
+# figure2
+```
+
+## Hvad kan forklare udviklingen?
+
+```{r, echo=FALSE}
+regr_model <- lm(Privatskole ~ Indkomst, privskole)
+#summary(regr_model)
+```
+
+Denne langvarige og forholdsvis stabile udvikling kan dårligt forklares af nyere reformer, som skulle have skabt en voldsom og hurtig" ændring. Hvis man skal prøve at forklare udviklingen, må derimod se til samfundsmæssige forhold, som har udviklet sig på samme måde over lang tid. Ét bud på et sådant forhold kunne være udviklingen i danskernes velstand. Danskerne er blevet rigere og rigere i denne periode. Den gennemsnitlige, disponible indkomst i Danmark er steget med godt 5.000 kr. om året fra godt 78.000 kr. i 1987 og til godt 250.000 kr. i 2020 ([Statistikbanken (INDKP104)](www.statistikbanken.dk)). Hvis man undersøger den rent statistiske sammenhæng mellem danskernes velstand og den andel, som sender deres børn i privatskole, så finder man en meget tæt sammenhæng. Faktisk kan udviklingen i den disponible indkomst forklare intet mindre end `r 100 * round(summary(regr_model)$r.squared, 2)` % af variationen i privatskoleandelen.
+
+En bedre forklaring på udviklingen i andelen af elever i privatskoler er således, at flere og flere danskere får råd til at sende deres børn i privatskole. Hvis ens barn ikke trives i sin klasse, har man måske tidligere søgt at få barnet flyttet til en anden klasse på skolen eller til en anden folkeskole, fordi det var for dyrt at få barnet i privatskole? Så selvom forældrebetalingen givetvis også er steget de seneste fyrre år, er den formentlig ikke steget så meget som den disponible indkomst.
+
+Den stigende opdeling af elever i privatskoler og folkeskoler kan have konsekvenser, der rækker ud over det enkelte barn selv. Et stort amerikansk forskningsprojekt, der for nylig blev publiceret i tidsskriftet Nature, viste, at børn af forældre med lav indkomst har meget større chance for at komme ud af fattigdom og selv få en større indkomst jo flere af deres venner som kommer fra familier med høj indkomst [@chetty_social_2022]. Folkeskolen er netop et sted, hvor børn har chance for at mødes og blive venner med børn fra alle indkomstgrupper i samfundet. Selvom den økonomiske ulighed er væsentlig større i USA end i Danmark, og resultaterne måske ikke kan overføres en til en, så peger det alligevel på, at det er vigtigt at forstå udviklingen i andelen af elever, som går i privatskole.
+
+Det skal på ingen måde påstås, at udviklingen i danskernes indkomst er den eneste mulige forklaring på udviklingen i privatskoleandelen. Andre samfundsforhold, som har udviklet sig stabilt over de seneste fyrre år, vil på samme måde hænge statistisk sammen med privatskoleandelen. Men hvis man politisk ønsker at ændre udviklingen, må man i første omgang forsøge at forstå årsagerne til den - og der skal man se efter nogle meget langsigtede udviklinger og ikke alene de senere års reformer.
+
+## Referencer 
 
