@@ -8,11 +8,12 @@ output:
     toc_depth: 2
     toc_float:
       collapsed: true
+bibliography: references.bib
 ---
 
-#  Flugten fra folkeskolen?
+# Flugten fra folkeskolen?
 
-**Indlæg bragt i Politiken 25. december 2022** 
+**Indlæg bragt i Politiken 25. december 2022**
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
@@ -98,5 +99,4 @@ Den stigende opdeling af elever i privatskoler og folkeskoler kan have konsekven
 
 Det skal på ingen måde påstås, at udviklingen i danskernes indkomst er den eneste mulige forklaring på udviklingen i privatskoleandelen. Andre samfundsforhold, som har udviklet sig stabilt over de seneste fyrre år, vil på samme måde hænge statistisk sammen med privatskoleandelen. Men hvis man politisk ønsker at ændre udviklingen, må man i første omgang forsøge at forstå årsagerne til den - og der skal man se efter nogle meget langsigtede udviklinger og ikke alene de senere års reformer.
 
-## Referencer 
-
+## Referencer
