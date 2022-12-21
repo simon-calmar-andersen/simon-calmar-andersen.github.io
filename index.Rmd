@@ -43,7 +43,7 @@ google scholar: [link](https://scholar.google.dk/citations?user=_e8kP80AAAAJ&hl=
 </div>
 <div class="column-right">
 
-[Link til Analyse-artikel bragt i Politiken d. 25. december 2022](https://simon-calmar-andersen.github.io/posts.html#Flugten_fra_folkeskolen)
+[Link til Analyse-artikel bragt i Politiken d. 25. december 2022](https://simon-calmar-andersen.github.io/posts.html#Flugten_fra_folkeskolen) 
 
 I am a Professor at Department of Political Science, Aarhus University and Director of TrygFonden's Centre for Child Research, also at Aarhus University, Denmark. Together with good colleagues from multiple disciplines (political science, economics, psychology), I study education policy from various perspectives. 
 
