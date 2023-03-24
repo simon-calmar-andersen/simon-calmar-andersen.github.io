@@ -1,7 +1,7 @@
 ---
 title: "Posts"
 author: "Simon Calmar Andersen"
-date: "2022-12-21"
+# date: "2022-12-21"
 output: 
   html_document:
     toc: true
@@ -11,6 +11,13 @@ output:
 bibliography:   references.bib
 link-citations: true
 ---
+
+
+# PMRC 2023 preconference workshop on Reviving Implementation Research in Public Administration
+
+
+
+## [Call for papers](https://raw.githubusercontent.com/simon-calmar-andersen/simon-calmar-andersen.github.io/main/docs/PMRC%202023%20Pre-conference%20Call%20for%20papers%20Implementation.pdf)
 
 # Kunsten at prøve sig frem. Et kritisk blik på SVM-regeringens reformplaner
 
