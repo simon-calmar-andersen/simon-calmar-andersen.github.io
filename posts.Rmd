@@ -12,10 +12,7 @@ bibliography:   references.bib
 link-citations: true
 ---
 
-
 # PMRC 2023 preconference workshop on Reviving Implementation Research in Public Administration
-
-
 
 ## [Call for papers](https://raw.githubusercontent.com/simon-calmar-andersen/simon-calmar-andersen.github.io/main/docs/PMRC%202023%20Pre-conference%20Call%20for%20papers%20Implementation.pdf)
 
@@ -71,7 +68,7 @@ Det er på den ene side befriende med en kommission, som åbent og ærligt erken
 
 Der er også andre af regeringens reformplaner, som vil egne sig godt til den systematisk afprøvende fremgangsmåde. Det gælder fx forslaget om at gøre undervisningen i folkeskolen mere praksisorienteret. Det kan der være mange gode grunde til, men igen er det ikke så simpelt, at fordi undervisningsministeren siger "klip-og-klister", så begynder alle matematiklærere at omlægge geometriundervisningen til at klippe og klistre mure og hustage som firkanter og trekanter.
 
-Andre eksempler på reformplaner i regeringsgrundlaget, som vil egne sig til systematisk afprøvning er (i) tankerne om en ny beskæftigelsesindsats, hvor der som nævnt foreligger gode lodtrækningsforsøg at bygge videre på, (ii) ambitionerne om at nedbringe sygefravær, som er prisværdige men ikke lette at styre fra Christiansborg og (iii) psykiatri og mental trivsel, hvor der også kan bygges på velafprøvede programmer målrettet forskellige målgrupper (se f.eks. [Psykiatrifondens Mind My Mind](<https://psykiatrifonden.dk/goer-vi/projekter-kampagner/mind-my-mind/hvad-er-mind-my-mind>) eller [Center for ADHD's De Utrolige år](https://adhdcenter.dk/forskning-og-udgivelser/38-virkningen-af-foraeldretraening-i-forhold-til-yngre-born-med-adhd-symptomer)).
+Andre eksempler på reformplaner i regeringsgrundlaget, som vil egne sig til systematisk afprøvning er (i) tankerne om en ny beskæftigelsesindsats, hvor der som nævnt foreligger gode lodtrækningsforsøg at bygge videre på, (ii) ambitionerne om at nedbringe sygefravær, som er prisværdige men ikke lette at styre fra Christiansborg og (iii) psykiatri og mental trivsel, hvor der også kan bygges på velafprøvede programmer målrettet forskellige målgrupper (se f.eks. [Psykiatrifondens Mind My Mind](https://psykiatrifonden.dk/goer-vi/projekter-kampagner/mind-my-mind/hvad-er-mind-my-mind) eller [Center for ADHD's De Utrolige år](https://adhdcenter.dk/forskning-og-udgivelser/38-virkningen-af-foraeldretraening-i-forhold-til-yngre-born-med-adhd-symptomer)).
 
 Regeringsgrundlagets afsnit om frisættelse giver umiddelbart plads til, at man ude i kommunerne kan eksperimentere med nye måder at løse de borgernære velfærdsopgaver på. Det er alt andet lige positivt og foreneligt med en gradvis og eksperimenterende tilgang til reformer. Men hvis ikke frisættelsen tilrettelægges på en måde, hvor der systematisk kan følges op på, hvad der virker, og hvad der ikke virker, så lærer vi intet af disse eksperimenter.
 
