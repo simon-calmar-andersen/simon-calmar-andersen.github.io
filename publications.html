@@ -14,7 +14,7 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
@@ -30,7 +30,7 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
@@ -66,6 +66,7 @@ if (window.hljs) {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging div.csl-entry {
   margin-left:2em;
@@ -168,11 +169,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -201,8 +206,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -210,16 +215,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -381,9 +379,7 @@ div.tocify {
 Houmark, and Helena Skyt Nielsen (2022), Fade-Out of Educational
 Interventions. Statistical and Substantive Sources. Working paper <a
 href="https://github.com/simon-calmar-andersen/simon-calmar-andersen.github.io/raw/main/docs/Andersen%20et%20al%20(221108)%20Fade-Out%20of%20Educational%20Interventions.pdf">link</a></p>
-<p>Andersen, Simon Calmar, and Ulrik Hvidman (2020), Implementing
-Educational Interventions at Scale. Working paper <a
-href="https://raw.githubusercontent.com/simon-calmar-andersen/simon-calmar-andersen.github.io/main/docs/Andersen%20Hvidman%20(wp%202020)%20Implementing%20Educational%20Interventions%20at%20Scale.pdf">link</a></p>
+<!-- Andersen, Simon Calmar, and Ulrik Hvidman (2020), Implementing Educational Interventions at Scale. Working paper [link](https://raw.githubusercontent.com/simon-calmar-andersen/simon-calmar-andersen.github.io/main/docs/Andersen%20Hvidman%20(wp%202020)%20Implementing%20Educational%20Interventions%20at%20Scale.pdf) -->
 <p>Andersen, Simon Calmar, Thorbjørn Sejr Guul, and Maria Knoth Humlum
 (2019), Instruction Time, Information, and Student Achievement. Evidence
 from a Field Experiment. Working paper <a
@@ -392,7 +388,24 @@ href="https://github.com/simon-calmar-andersen/simon-calmar-andersen.github.io/r
 <div id="publications-peer-reviewed" class="section level1 unnumbered">
 <h1 class="unnumbered">Publications (peer reviewed)</h1>
 <div id="refs" class="references csl-bib-body hanging-indent"
-line-spacing="2">
+entry-spacing="0" line-spacing="2">
+<div id="ref-andersen_effect_2024" class="csl-entry">
+Andersen, S. C., Beuchert, L., &amp; Nielsen, H. S. (2024). The effect
+of teacher<span>’</span>s aides on students with special needs.
+<em>Scandinavian Journal of Economics</em>.
+</div>
+<div id="ref-andersen_implementing_2024" class="csl-entry">
+Andersen, S. C., &amp; Hvidman, U. (2024). Implementing <span>Home-Based
+Educational Interventions</span> at <span>Scale</span>. <em>Journal of
+Human Resources</em>. <a
+href="https://doi.org/10.3368/jhr.0920-11173R2">https://doi.org/10.3368/jhr.0920-11173R2</a>
+</div>
+<div id="ref-hjortskov_lexicographic_2024" class="csl-entry">
+Hjortskov, M., &amp; Andersen, S. C. (2024). Lexicographic preferences
+in candidate choice. How party affiliation dominates gender and race.
+<em>British Journal of Political Science</em>. <a
+href="https://doi.org/10.1017/S0007123424000048">https://doi.org/10.1017/S0007123424000048</a>
+</div>
 <div id="ref-andersen_does_2023" class="csl-entry">
 Andersen, S. C., Bruntse, M., James, O., &amp; Jilke, S. (2023). <span
 class="nocase">Does Work Quality Differ between the Public and Private

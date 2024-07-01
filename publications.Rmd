@@ -27,7 +27,7 @@ nocite: '@*'
 
 Andersen, Simon Calmar, Simon Tranberg Bodilsen, Mikkel Aagaard Houmark, and Helena Skyt Nielsen (2022), Fade-Out of Educational Interventions. Statistical and Substantive Sources. Working paper [link](https://github.com/simon-calmar-andersen/simon-calmar-andersen.github.io/raw/main/docs/Andersen%20et%20al%20(221108)%20Fade-Out%20of%20Educational%20Interventions.pdf)
 
-Andersen, Simon Calmar, and Ulrik Hvidman (2020), Implementing Educational Interventions at Scale. Working paper [link](https://raw.githubusercontent.com/simon-calmar-andersen/simon-calmar-andersen.github.io/main/docs/Andersen%20Hvidman%20(wp%202020)%20Implementing%20Educational%20Interventions%20at%20Scale.pdf)
+<!-- Andersen, Simon Calmar, and Ulrik Hvidman (2020), Implementing Educational Interventions at Scale. Working paper [link](https://raw.githubusercontent.com/simon-calmar-andersen/simon-calmar-andersen.github.io/main/docs/Andersen%20Hvidman%20(wp%202020)%20Implementing%20Educational%20Interventions%20at%20Scale.pdf) -->
 
 Andersen, Simon Calmar, Thorbjørn Sejr Guul, and Maria Knoth Humlum (2019), Instruction Time, Information, and Student Achievement. Evidence from a Field Experiment. Working paper [link](https://github.com/simon-calmar-andersen/simon-calmar-andersen.github.io/raw/main/docs/Andersen_Guul_Humlum_2019_instruction-time-information-achievement.pdf)
 
