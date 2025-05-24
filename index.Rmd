@@ -1,12 +1,13 @@
 ---
 title: "Simon Calmar Andersen"
-
+output:
+  html_document:
+    css: style.css
 ---
 
 
-
 <div class="column-left">
-![](Billede SCA.jpg)
+![](Simon Calmar Andersen2_foto krediteres_Lars Kruse, AU Foto-portræt.jpg)
 
 **Professor**
 
@@ -91,6 +92,7 @@ For new working papers, see [Research](https://simon-calmar-andersen.github.io/p
 
 </div>
 
+</div>
 
 
 

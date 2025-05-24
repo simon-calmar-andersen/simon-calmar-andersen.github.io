@@ -1,0 +1,26 @@
+---
+title: "Publications"
+author: "Simon Calmar Andersen"
+date: "2022-11-12"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float:
+      collapsed: true
+
+
+bibliography: docs/publications.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl
+
+---
+
+# Working papers
+
+
+Andersen, Simon Calmar, Simon Tranberg Bodilsen, Mikkel Aagaard Houmark, and Helena Skyt Nielsen (2022), Fade-Out of Educational Interventions. Statistical and Substantive Sources. Working paper [link]
+
+
+# Publications (peer reviewed)
+
+

@@ -3,7 +3,7 @@
     "path": "~/Dept of Pol Science Dropbox/Simon Calmar Andersen/Professorat/Diverse/simon-calmar-andersen.github.io/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "2239410636",
+    "hash": "3811579384",
     "contents": "",
     "dirty": false,
     "created": 1744621505724.0,
@@ -11,14 +11,16 @@
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "6,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1678892667,
+    "lastKnownWriteTime": 1748078382,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1678892667,
+    "last_content_update": 1748078382341,
     "read_only": false,
     "read_only_alternatives": []
 }
