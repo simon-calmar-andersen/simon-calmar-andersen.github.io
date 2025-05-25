@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Simon Calmar Andersen" />
+
+
+<title>Publications</title>
+
+<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Simon Calmar Andersen</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="publications.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="posts.html">Posts</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Publications</h1>
+<h4 class="author">Simon Calmar Andersen</h4>
+
+</div>
+
+
+<div id="working-papers" class="section level1">
+<h1>Working papers</h1>
+<p>Andersen, Simon Calmar, Nanna Vestergaard Ahrensberg, Jesper Asring
+Jessen Hansen, Morten Hjortskov, and Jakob Majlund Holm (2025),
+Attention as a First-Order Barrier to Adoption of Evidence-based
+Programs. Working paper <a
+href="https://github.com/simon-calmar-andersen/simon-calmar-andersen.github.io/raw/main/docs/Andersen%20et%20al%20(2025)%20Attention%20as%20a%20First-Order%20Barrier%20to%20Adoption%20of%20Evidence-based%20Programs.pdf">link</a></p>
+<p>Andersen, Simon Calmar, Simon Tranberg Bodilsen, Mikkel Aagaard
+Houmark, and Helena Skyt Nielsen (2022), Fade-Out of Educational
+Interventions. Statistical and Substantive Sources. Working paper <a
+href="https://github.com/simon-calmar-andersen/simon-calmar-andersen.github.io/raw/main/docs/Andersen%20et%20al%20(221108)%20Fade-Out%20of%20Educational%20Interventions.pdf">link</a></p>
+<!-- Andersen, Simon Calmar, and Ulrik Hvidman (2020), Implementing Educational Interventions at Scale. Working paper [link](https://raw.githubusercontent.com/simon-calmar-andersen/simon-calmar-andersen.github.io/main/docs/Andersen%20Hvidman%20(wp%202020)%20Implementing%20Educational%20Interventions%20at%20Scale.pdf) -->
+<p>Andersen, Simon Calmar, Thorbjørn Sejr Guul, and Maria Knoth Humlum
+(2019), Instruction Time, Information, and Student Achievement. Evidence
+from a Field Experiment. Working paper <a
+href="https://github.com/simon-calmar-andersen/simon-calmar-andersen.github.io/raw/main/docs/Andersen_Guul_Humlum_2019_instruction-time-information-achievement.pdf">link</a></p>
+</div>
+<div id="publications-peer-reviewed" class="section level1 unnumbered">
+<h1 class="unnumbered">Publications (peer reviewed)</h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0" line-spacing="2">
+<div id="ref-andersen_effect_2024" class="csl-entry">
+Andersen, S. C., Beuchert, L., &amp; Nielsen, H. S. (2024). The effect
+of teacher<span>’</span>s aides on students with special needs.
+<em>Scandinavian Journal of Economics</em>.
+</div>
+<div id="ref-andersen_implementing_2024" class="csl-entry">
+Andersen, S. C., &amp; Hvidman, U. (2024). Implementing <span>Home-Based
+Educational Interventions</span> at <span>Scale</span>. <em>Journal of
+Human Resources</em>. <a
+href="https://doi.org/10.3368/jhr.0920-11173R2">https://doi.org/10.3368/jhr.0920-11173R2</a>
+</div>
+<div id="ref-hjortskov_lexicographic_2024" class="csl-entry">
+Hjortskov, M., &amp; Andersen, S. C. (2024). Lexicographic preferences
+in candidate choice. How party affiliation dominates gender and race.
+<em>British Journal of Political Science</em>. <a
+href="https://doi.org/10.1017/S0007123424000048">https://doi.org/10.1017/S0007123424000048</a>
+</div>
+<div id="ref-andersen_does_2023" class="csl-entry">
+Andersen, S. C., Bruntse, M., James, O., &amp; Jilke, S. (2023). <span
+class="nocase">Does Work Quality Differ between the Public and Private
+Sectors? Evidence from Two Online Field Experiments</span>. <em>Journal
+of Public Administration Research and Theory</em>, muad011. <a
+href="https://doi.org/10.1093/jopart/muad011">https://doi.org/10.1093/jopart/muad011</a>
+</div>
+<div id="ref-andersen_how_2022" class="csl-entry">
+Andersen, S. C., Guul, T. S., &amp; Humlum, M. K. (2022). How
+first-language instruction transfers to majority-language skills.
+<em>Nature Human Behavior</em>, <em>6</em>(2), 229–235. <a
+href="https://doi.org/10.1038/s41562-021-01200-x">https://doi.org/10.1038/s41562-021-01200-x</a>
+</div>
+<div id="ref-andersen_unnoticed_2022" class="csl-entry">
+Andersen, S. C., &amp; Hjortskov, M. (2022). The unnoticed influence of
+peers on educational preferences. <em>Behavioural Public Policy</em>,
+<em>6</em>(4), 530–553. <a
+href="https://doi.org/10.1017/bpp.2019.14">https://doi.org/10.1017/bpp.2019.14</a>
+</div>
+<div id="ref-andersen_development_2022" class="csl-entry">
+Andersen, S. C., Nielsen, H. S., &amp; Rowe, M. L. (2022). Development
+of writing skills within a home-based, shared reading intervention:
+Re-analyses of evidence from a randomized controlled trial. <em>Learning
+and Individual Differences</em>. <a
+href="https://doi.org/10.1016/j.lindif.2022.102211">https://doi.org/10.1016/j.lindif.2022.102211</a>
+</div>
+<div id="ref-andersen_can_2021" class="csl-entry">
+Andersen, S. C., &amp; Hvidman, U. (2021). Can <span>Reminders</span>
+and <span>Incentives</span> <span>Improve</span>
+<span>Implementation</span> <span>Within</span> <span>Government</span>?
+<span>Evidence</span> from a <span>Field</span> <span>Experiment</span>.
+<em>Journal of Public Administration Research and Theory</em>,
+<em>31</em>(1). <a
+href="https://doi.org/10.1093/jopart/muaa022">https://doi.org/10.1093/jopart/muaa022</a>
+</div>
+<div id="ref-gensowski_academic_2021" class="csl-entry">
+Gensowski, M., Ludeke, S., John, O. P., &amp; Andersen, S. C. (2021).
+Academic self perceptions in a national danish sample: Predictive power
+and development from grade 4 to 9. <em>Journal of Research in
+Personality</em>, <em>92</em>. <a
+href="https://doi.org/10.1016/j.jrp.2021.104090">https://doi.org/10.1016/j.jrp.2021.104090</a>
+</div>
+<div id="ref-gissel_cluster-randomized_2021" class="csl-entry">
+Gissel, S. T., &amp; Andersen, S. C. (2021). A cluster-randomized trial
+measuring the effects of a digital learning tool supporting decoding and
+reading for meaning in grade 2. <em>Journal of Computer Assisted
+Learning</em>, <em>37</em>(n/a), 287–304. https://doi.org/<a
+href="https://doi.org/10.1111/jcal.12488">https://doi.org/10.1111/jcal.12488</a>
+</div>
+<div id="ref-ludeke_does_2021" class="csl-entry">
+Ludeke, S., Gensowski, M., Junge, S. Y., Kirkpatrick, R., John, O.,
+&amp; Andersen, S. C. (2021). Does parental education influence child
+educational outcomes? <span>A</span> developmental analysis in a
+full-population sample and adoptee design. <em>Journal of Personality
+and Social Psychology</em>, <em>120</em>(4), 1074–1090. <a
+href="https://doi.org/10.1037/pspp0000314">https://doi.org/10.1037/pspp0000314</a>
+</div>
+<div id="ref-rosholm_are_2021" class="csl-entry">
+Rosholm, M., Paul, A., Bleses, D., Højen, A., S. Dale, P., Jensen, P., …
+Calmar Andersen, S. (2021). "Are impacts of early interventions in the
+scandinavian welfare state consistent with a heckman curve?: A
+meta-analysis". <em>Journal of Economic Surveys</em>, <em>35</em>(1),
+106–140. <a
+href="https://doi.org/10.1111/joes.12400">https://doi.org/10.1111/joes.12400</a>
+</div>
+<div id="ref-vedel_development_2021" class="csl-entry">
+Vedel, A., Wellnitz, K. B., Ludeke, S., Soto, C. J., John, O. P., &amp;
+Andersen, S. C. (2021). Development and <span>Validation</span> of the
+<span>Danish</span> <span>Big</span> <span>Five</span>
+<span>Inventory</span>-2. <em>European Journal of Psychological
+Assessment</em>, <em>37</em>(1), 42–51. <a
+href="https://doi.org/10.1027/1015-5759/a000570">https://doi.org/10.1027/1015-5759/a000570</a>
+</div>
+<div id="ref-andersen_effect_2020" class="csl-entry">
+Andersen, S. C., Beuchert, L., Nielsen, H. S., &amp; Thomsen, M. K.
+(2020). The <span>Effect</span> of <span>Teacher</span>’s
+<span>Aides</span> in the <span>Classroom</span>: <span>Evidence</span>
+from a <span>Randomized</span> <span>Trial</span>. <em>Journal of the
+European Economic Association</em>, <em>18</em>(1), 469–505. <a
+href="https://doi.org/10.1093/jeea/jvy048">https://doi.org/10.1093/jeea/jvy048</a>
+</div>
+<div id="ref-andersen_stable_2020" class="csl-entry">
+Andersen, S. C., Gensowski, M., Ludeke, S. G., &amp; John, O. P. (2020).
+A stable relationship between personality and academic performance from
+childhood through adolescence. <span>An</span> original study and
+replication in hundred-thousand-person samples. <em>Journal of
+Personality</em>, <em>88</em>(5), 925–939. https://doi.org/<a
+href="https://doi.org/10.1111/jopy.12538">https://doi.org/10.1111/jopy.12538</a>
+</div>
+<div id="ref-andersen_parent_2020" class="csl-entry">
+Andersen, S. C., Gregersen, M. K., Nielsen, H. S., &amp; Thomsen, M. K.
+(2020). Parent <span>Involvement</span>, <span>Socioeconomic</span>
+<span>Status</span> and <span>Reading</span> <span>Performance</span>.
+<em>Scandinavian Journal of Educational Research</em>, <em>0</em>(0),
+1–16. <a
+href="https://doi.org/10.1080/00313831.2020.1840429">https://doi.org/10.1080/00313831.2020.1840429</a>
+</div>
+<div id="ref-andersen_learning_2020" class="csl-entry">
+Andersen, S. C., &amp; Nielsen, H. S. (2020). Learning from
+<span>Performance</span> <span>Information</span>. <em>Journal of Public
+Administration Research and Theory</em>, <em>30</em>(3), 415–431. <a
+href="https://doi.org/10.1093/jopart/muz036">https://doi.org/10.1093/jopart/muz036</a>
+</div>
+<div id="ref-andersen_how_2020" class="csl-entry">
+Andersen, S. C., Nielsen, H. S., &amp; Thomsen, M. K. (2020). How to
+increase citizen coproduction: Replication and extension of existing
+research. <em>International Public Management Journal</em>,
+<em>23</em>(5), 696–712. <a
+href="https://doi.org/10.1080/10967494.2018.1518851">https://doi.org/10.1080/10967494.2018.1518851</a>
+</div>
+<div id="ref-andersen_reducing_2019" class="csl-entry">
+Andersen, S. C., &amp; Guul, T. S. (2019). Reducing
+<span>Minority</span> <span>Discrimination</span> at the
+<span>Front</span> <span>Line</span>—<span>Combined</span>
+<span>Survey</span> and <span>Field</span> <span>Experimental</span>
+<span>Evidence</span>. <em>Journal of Public Administration Research and
+Theory</em>, <em>29</em>(3), 429–444. <a
+href="https://doi.org/10.1093/jopart/muy083">https://doi.org/10.1093/jopart/muy083</a>
+</div>
+<div id="ref-andersen_instruction_2019" class="csl-entry">
+Andersen, S. C., Guul, T. S., &amp; Humlum, M. K. (2019).
+<em>Instruction <span>Time</span>, <span>Information</span>, and
+<span>Student</span> <span>Achievement</span>: <span>Evidence</span>
+from a <span>Field</span> <span>Experiment</span></em> (No. 2019-049).
+Human Capital; Economic Opportunity Working Group. Retrieved from Human
+Capital; Economic Opportunity Working Group website: <a
+href="https://ideas.repec.org/p/hka/wpaper/2019-049.html">https://ideas.repec.org/p/hka/wpaper/2019-049.html</a>
+</div>
+<div id="ref-andersen_effect_2018" class="csl-entry">
+Andersen, S. C., Beuchert, L., Nielsen, H. S., &amp; Thomsen, M. K.
+(2018). <em>The <span>Effect</span> of <span>Teacher</span>’s
+<span>Aides</span> in the <span>Classroom</span>: <span>Evidence</span>
+from a <span>Randomized</span> <span>Trial</span></em> ({SSRN}
+{Scholarly} {Paper} No. ID 2626677). Rochester, NY: Social Science
+Research Network. Retrieved from Social Science Research Network
+website: <a
+href="https://papers.ssrn.com/abstract=2626677">https://papers.ssrn.com/abstract=2626677</a>
+</div>
+<div id="ref-andersen_how_2018" class="csl-entry">
+Andersen, S. C., Christensen, M. V., Nielsen, H. S., Thomsen, M. K.,
+Østerbye, T., &amp; Rowe, M. L. (2018). How reading and writing support
+each other across a school year in primary school children.
+<em>Contemporary Educational Psychology</em>, <em>55</em>, 129–138. <a
+href="https://doi.org/10.1016/j.cedpsych.2018.09.005">https://doi.org/10.1016/j.cedpsych.2018.09.005</a>
+</div>
+<div id="ref-andersen_political_2018" class="csl-entry">
+Andersen, S. C., &amp; Jakobsen, M. L. (2018). Political
+<span>Pressure</span>, <span>Conformity</span> <span>Pressure</span>,
+and <span>Performance</span> <span>Information</span> as
+<span>Drivers</span> of <span>Public</span> <span>Sector</span>
+<span>Innovation</span> <span>Adoption</span>. <em>International Public
+Management Journal</em>, <em>21</em>(2), 213–242. <a
+href="https://doi.org/10.1080/10967494.2018.1425227">https://doi.org/10.1080/10967494.2018.1425227</a>
+</div>
+<div id="ref-andersen_how_2018-1" class="csl-entry">
+Andersen, S. C., &amp; Moynihan, D. P. (2018). How <span>Do</span>
+<span>Socially</span> <span>Distinctive</span> <span>Newcomers</span>
+<span>Fare</span>? <span>Evidence</span> from a <span>Field</span>
+<span>Experiment</span>. <em>Public Administration Review</em>,
+<em>78</em>(6), 874–882. https://doi.org/<a
+href="https://doi.org/10.1111/puar.12957">https://doi.org/10.1111/puar.12957</a>
+</div>
+<div id="ref-favero_how_2018" class="csl-entry">
+Favero, N., Andersen, S. C., Meier, K. J., Jr, L. J. O., &amp; Winter,
+S. C. (2018). How <span>Should</span> <span>We</span>
+<span>Estimate</span> the <span>Performance</span> <span>Effect</span>
+of <span>Management</span>? <span>Comparing</span> <span>Impacts</span>
+of <span>Public</span> <span>Managers</span>’ and <span>Frontline</span>
+<span>Employees</span>’ <span>Perceptions</span> of
+<span>Management</span>. <em>International Public Management
+Journal</em>, <em>21</em>(1), 105–130. <a
+href="https://doi.org/10.1080/10967494.2016.1236763">https://doi.org/10.1080/10967494.2016.1236763</a>
+</div>
+<div id="ref-hjortskov_encouraging_2018" class="csl-entry">
+Hjortskov, M., Andersen, S. C., &amp; Jakobsen, M. (2018). Encouraging
+<span>Political</span> <span>Voices</span> of
+<span>Underrepresented</span> <span>Citizens</span> through
+<span>Coproduction</span>: <span>Evidence</span> from a
+<span>Randomized</span> <span>Field</span> <span>Trial</span>.
+<em>American Journal of Political Science</em>, <em>62</em>(3), 597–609.
+https://doi.org/<a
+href="https://doi.org/10.1111/ajps.12360">https://doi.org/10.1111/ajps.12360</a>
+</div>
+<div id="ref-pontoppidan_randomised_2018" class="csl-entry">
+Pontoppidan, M., Keilow, M., Dietrichson, J., Solheim, O. J., Opheim,
+V., Gustafson, S., &amp; Andersen, S. C. (2018). Randomised controlled
+trials in <span>Scandinavian</span> educational research.
+<em>Educational Research</em>, <em>60</em>(3), 311–335. <a
+href="https://doi.org/10.1080/00131881.2018.1493351">https://doi.org/10.1080/00131881.2018.1493351</a>
+</div>
+<div id="ref-andersen_student-centered_2017" class="csl-entry">
+Andersen, I. G., &amp; Andersen, S. C. (2017). Student-centered
+instruction and academic achievement: Linking mechanisms of educational
+inequality to schools’ instructional strategy. <em>British Journal of
+Sociology of Education</em>, <em>38</em>(4), 533–550. <a
+href="https://doi.org/10.1080/01425692.2015.1093409">https://doi.org/10.1080/01425692.2015.1093409</a>
+</div>
+<div id="ref-andersen_passive_2017" class="csl-entry">
+Andersen, S. C. (2017). From <span>Passive</span> to <span>Active</span>
+<span>Representation</span>—<span>Experimental</span>
+<span>Evidence</span> on the <span>Role</span> of <span>Normative</span>
+<span>Values</span> in <span>Shaping</span> <span>White</span> and
+<span>Minority</span> <span>Bureaucrats</span>’ <span>Policy</span>
+<span>Attitudes</span>. <em>Journal of Public Administration Research
+and Theory</em>, <em>27</em>(3), 400–414. <a
+href="https://doi.org/10.1093/jopart/mux006">https://doi.org/10.1093/jopart/mux006</a>
+</div>
+<div id="ref-andersen_policy_2017" class="csl-entry">
+Andersen, S. C., &amp; Jakobsen, M. (2017). Policy
+<span>Positions</span> of <span>Bureaucrats</span> at the
+<span>Front</span> <span>Lines</span>: <span>Are</span>
+<span>They</span> <span>Susceptible</span> to <span>Strategic</span>
+<span>Communication</span>? <em>Public Administration Review</em>,
+<em>77</em>(1), 57–66. https://doi.org/<a
+href="https://doi.org/10.1111/puar.12584">https://doi.org/10.1111/puar.12584</a>
+</div>
+<div id="ref-andersen_coproduction_2017" class="csl-entry">
+Andersen, S. C., Jakobsen, M., Serritzlew, S., &amp; Thomsen, M. K.
+(2017). Coproduction of <span>Public</span> <span>Services</span>.
+<em>Experiments in Public Management Research: Challenges and
+Contributions</em>, 329–344. <a
+href="https://doi.org/10.1017/9781316676912.016">https://doi.org/10.1017/9781316676912.016</a>
+</div>
+<div id="ref-hestbaek_influence_2017" class="csl-entry">
+Hestbaek, L., Andersen, S. T., Skovgaard, T., Olesen, L. G., Elmose, M.,
+Bleses, D., … Lauridsen, H. H. (2017). Influence of motor skills
+training on children’s development evaluated in the <span>Motor</span>
+skills in <span>PreSchool</span> (<span>MiPS</span>)
+study-<span>DK</span>: Study protocol for a randomized controlled trial,
+nested in a cohort study. <em>Trials</em>, <em>18</em>(1), 400. <a
+href="https://doi.org/10.1186/s13063-017-2143-9">https://doi.org/10.1186/s13063-017-2143-9</a>
+</div>
+<div id="ref-andersen_cognitive_2016" class="csl-entry">
+Andersen, S. C., &amp; Hjortskov, M. (2016). Cognitive
+<span>Biases</span> in <span>Performance</span>
+<span>Evaluations</span>. <em>Journal of Public Administration Research
+and Theory</em>, <em>26</em>(4), 647–662. <a
+href="https://doi.org/10.1093/jopart/muv036">https://doi.org/10.1093/jopart/muv036</a>
+</div>
+<div id="ref-andersen_increasing_2016" class="csl-entry">
+Andersen, S. C., Humlum, M. K., &amp; Nandrup, A. B. (2016). Increasing
+instruction time in school does increase learning. <em>Proceedings of
+the National Academy of Sciences</em>, <em>113</em>(27), 7481–7484. <a
+href="https://doi.org/10.1073/pnas.1516686113">https://doi.org/10.1073/pnas.1516686113</a>
+</div>
+<div id="ref-andersen_bureaucratic_2016" class="csl-entry">
+Andersen, S. C., &amp; Moynihan, D. P. (2016a). Bureaucratic
+<span>Investments</span> in <span>Expertise</span>:
+<span>Evidence</span> from a <span>Randomized</span>
+<span>Controlled</span> <span>Field</span> <span>Trial</span>. <em>The
+Journal of Politics</em>, <em>78</em>(4), 1032–1044. <a
+href="https://doi.org/10.1086/686029">https://doi.org/10.1086/686029</a>
+</div>
+<div id="ref-andersen_how_2016" class="csl-entry">
+Andersen, S. C., &amp; Moynihan, D. P. (2016b). How <span>Leaders</span>
+<span>Respond</span> to <span>Diversity</span>: <span>The</span>
+<span>Moderating</span> <span>Role</span> of <span>Organizational</span>
+<span>Culture</span> on <span>Performance</span>
+<span>Information</span> <span>Use</span>. <em>Journal of Public
+Administration Research and Theory</em>, <em>26</em>(3), 448–460. <a
+href="https://doi.org/10.1093/jopart/muv038">https://doi.org/10.1093/jopart/muv038</a>
+</div>
+<div id="ref-andersen_reading_2016" class="csl-entry">
+Andersen, S. C., &amp; Nielsen, H. S. (2016). Reading intervention with
+a growth mindset approach improves children’s skills. <em>Proceedings of
+the National Academy of Sciences</em>, <em>113</em>(43), 12111–12113. <a
+href="https://doi.org/10.1073/pnas.1607946113">https://doi.org/10.1073/pnas.1607946113</a>
+</div>
+<div id="ref-hvidman_perceptions_2016" class="csl-entry">
+Hvidman, U., &amp; Andersen, S. C. (2016). Perceptions of
+<span>Public</span> and <span>Private</span> <span>Performance</span>:
+<span>Evidence</span> from a <span>Survey</span>
+<span>Experiment</span>. <em>Public Administration Review</em>,
+<em>76</em>(1), 111–120. https://doi.org/<a
+href="https://doi.org/10.1111/puar.12441">https://doi.org/10.1111/puar.12441</a>
+</div>
+<div id="ref-meier_validity_2015" class="csl-entry">
+Meier, K. J., Winter, S. C., O’toole, L. J., Favero, N., &amp; Andersen,
+S. C. (2015). The <span>Validity</span> of <span>Subjective</span>
+<span>Performance</span> <span>Measures</span>: <span>School</span>
+<span>Principals</span> in <span>Texas</span> and <span>Denmark</span>.
+<em>Public Administration</em>, <em>93</em>(4), 1084–1101.
+https://doi.org/<a
+href="https://doi.org/10.1111/padm.12180">https://doi.org/10.1111/padm.12180</a>
+</div>
+<div id="ref-meier_taking_2015" class="csl-entry">
+Meier, K., Andersen, S. C., Jr, L. J. O., Favero, N., &amp; Winter, S.
+C. (2015). Taking <span>Managerial</span> <span>Context</span>
+<span>Seriously</span>: <span>Public</span> <span>Management</span> and
+<span>Performance</span> in <span>U</span>.<span>S</span>. And
+<span>Denmark</span> <span>Schools</span>. <em>International Public
+Management Journal</em>, <em>18</em>(1), 130–150. <a
+href="https://doi.org/10.1080/10967494.2014.972485">https://doi.org/10.1080/10967494.2014.972485</a>
+</div>
+<div id="ref-andersen_deliberative_2014-1" class="csl-entry">
+Andersen, S. C., &amp; Loftager, J. (2014). Deliberative
+<span>Democratic</span> <span>Governance</span>. <em>Administrative
+Theory &amp; Praxis</em>, <em>36</em>(4), 510–529. <a
+href="https://doi.org/10.2753/ATP1084-1806360404">https://doi.org/10.2753/ATP1084-1806360404</a>
+</div>
+<div id="ref-andersen_deliberative_2014" class="csl-entry">
+Andersen, S., &amp; Loftager, J. (2014). Deliberative
+<span>Democratic</span> <span>Governance</span>. <em>Administrative
+Theory &amp; Praxis</em>, <em>36</em>, 510–529. <a
+href="https://doi.org/10.2753/ATP1084-1806360404">https://doi.org/10.2753/ATP1084-1806360404</a>
+</div>
+<div id="ref-hvidman_impact_2014" class="csl-entry">
+Hvidman, U., &amp; Andersen, S. C. (2014). Impact of
+<span>Performance</span> <span>Management</span> in <span>Public</span>
+and <span>Private</span> <span>Organizations</span>. <em>Journal of
+Public Administration Research and Theory</em>, <em>24</em>(1), 35–58.
+<a
+href="https://doi.org/10.1093/jopart/mut019">https://doi.org/10.1093/jopart/mut019</a>
+</div>
+<div id="ref-jakobsen_coproduction_2013" class="csl-entry">
+Jakobsen, M., &amp; Andersen, S. C. (2013a). Coproduction and
+<span>Equity</span> in <span>Public</span> <span>Service</span>
+<span>Delivery</span>. <em>Public Administration Review</em>,
+<em>73</em>(5), 704–713. https://doi.org/<a
+href="https://doi.org/10.1111/puar.12094">https://doi.org/10.1111/puar.12094</a>
+</div>
+<div id="ref-jakobsen_intensifying_2013" class="csl-entry">
+Jakobsen, M., &amp; Andersen, S. C. (2013b). Intensifying
+<span>Social</span> <span>Exchange</span> <span>Relationships</span> in
+<span>Public</span> <span>Organizations</span>: <span>Evidence</span>
+from a <span>Randomized</span> <span>Field</span>
+<span>Experiment</span>. <em>Journal of Policy Analysis and
+Management</em>, <em>32</em>(1), 60–82. https://doi.org/<a
+href="https://doi.org/10.1002/pam.21662">https://doi.org/10.1002/pam.21662</a>
+</div>
+<div id="ref-winter_pygmalion_2013" class="csl-entry">
+Winter, S., Nielsen, V., &amp; Andersen, S. (2013). <em>Pygmalion in
+<span>Public</span> <span>Leadership</span>: <span>Leader</span>
+<span>Expectations</span> and <span>Performance</span></em>.
+</div>
+<div id="ref-andersen_policy_2011" class="csl-entry">
+Andersen, S. C., &amp; Thomsen, M. K. (2011). Policy
+<span>Implications</span> of <span>Limiting</span>
+<span>Immigrant</span> <span>Concentration</span> in <span>Danish</span>
+<span>Public</span> <span>Schools</span>. <em>Scandinavian Political
+Studies</em>, <em>34</em>(1), 27–52. https://doi.org/<a
+href="https://doi.org/10.1111/j.1467-9477.2010.00260.x">https://doi.org/10.1111/j.1467-9477.2010.00260.x</a>
+</div>
+<div id="ref-andersen_policy_2010" class="csl-entry">
+Andersen, S. C., &amp; Mortensen, P. B. (2010). Policy
+<span>Stability</span> and <span>Organizational</span>
+<span>Performance</span>: <span>Is</span> <span>There</span> a
+<span>Relationship</span>? <em>Journal of Public Administration Research
+and Theory</em>, <em>20</em>(1), 1–22. <a
+href="https://doi.org/10.1093/jopart/mup005">https://doi.org/10.1093/jopart/mup005</a>
+</div>
+<div id="ref-andersen_private_2008" class="csl-entry">
+Andersen, S. C. (2008a). Private <span>Schools</span> and the
+<span>Parents</span> that <span>Choose</span> <span>Them</span>:
+<span>Empirical</span> <span>Evidence</span> from the
+<span>Danish</span> <span>School</span> <span>Voucher</span>
+<span>System</span>. <em>Scandinavian Political Studies</em>,
+<em>31</em>(1), 44–68. https://doi.org/<a
+href="https://doi.org/10.1111/j.1467-9477.2008.00195.x">https://doi.org/10.1111/j.1467-9477.2008.00195.x</a>
+</div>
+<div id="ref-andersen_impact_2008" class="csl-entry">
+Andersen, S. C. (2008b). The <span>Impact</span> of <span>Public</span>
+<span>Management</span> <span>Reforms</span> on <span>Student</span>
+<span>Performance</span> in <span>Danish</span> <span>Schools</span>.
+<em>Public Administration</em>, <em>86</em>(2), 541–558.
+https://doi.org/<a
+href="https://doi.org/10.1111/j.1467-9299.2008.00717.x">https://doi.org/10.1111/j.1467-9299.2008.00717.x</a>
+</div>
+<div id="ref-andersen_unintended_2007" class="csl-entry">
+Andersen, S. C., &amp; Serritzlew, S. (2007). The
+<span>Unintended</span> <span>Effects</span> of <span>Private</span>
+<span>School</span> <span>Competition</span>. <em>Journal of Public
+Administration Research and Theory</em>, <em>17</em>(2), 335–356. <a
+href="https://doi.org/10.1093/jopart/mul019">https://doi.org/10.1093/jopart/mul019</a>
+</div>
+<div id="ref-andersen_how_2005" class="csl-entry">
+Andersen, S. C. (2005). How to <span>Improve</span> the
+<span>Outcome</span> of <span>State</span> <span>Welfare</span>
+<span>Services</span>. <span>Governance</span> in <span>A</span>
+<span>Systems</span>-<span>Theoretical</span> <span>Perspective</span>.
+<em>Public Administration</em>, <em>83</em>(4), 891–907.
+https://doi.org/<a
+href="https://doi.org/10.1111/j.0033-3298.2005.00482.x">https://doi.org/10.1111/j.0033-3298.2005.00482.x</a>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
