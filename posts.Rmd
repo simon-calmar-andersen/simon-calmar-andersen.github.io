@@ -12,11 +12,67 @@ bibliography:   references.bib
 link-citations: true
 ---
 
+# Ny forskning peger på de positive effekter af at begrænse brug af mobiler og sociale medier i skolen
+
+**Kronik bragt i Berlingske 8. november 2025**
+
+*af Simon Calmar Andersen og Katrine Tølbøll*
+
+Med Trivselskommissionens anbefaling om at alle grundskoler skal være smartphonefrie og Folketingets nylige beslutning om mobilfrie folkeskoler, har det været heftigt debatteret, hvad effekten af et sådan forbud vil være. En udfordring har været, at den hidtidige forskning ikke har kunnet give klare svar på hvilke effekter, man kunne forvente. Trivselskommissionen baserede således sin anbefaling på et forsigtighedsprincip om, at det i mangel på klare forskningsresultater var bedre at være forsigtig i tilgangen til mobiler.
+
+Men nu er der netop blevet publiceret to stærke forskningsstudier, som viser nogle positive effekter af at begrænse adgangen til mobiler og sociale medier i skoletiden. I det ene studie -- der er udgivet som et arbejdspapir men endnu ikke fagfællebedømt -- undersøger forskerne hvad der skete, da skoler i Florida forbød mobiltelefoner. De fandt, at på kort sigt blev flere elever udvist fra klassen -- specielt blandt sorte elever. Men efter det første år aftog disse sanktioner. Forskerne fortolker det på den måde, at det tog noget tid for eleverne at vænne sig til og acceptere de nye regler for mobiler. Men da de først gjorde det, havde det positiv virkning på, hvor meget de lærte i skolen: To år efter reglernes indførelse, kunne forskerne konstatere, at eleverne klarede sig bedre i deres testopgaver. De kunne også se, at det ulovlige fravær faldt -- hvilket kan være med til at forklare, hvorfor eleverne begyndte at få mere udbytte af deres skolegang. De positive effekter var mest tydelige for elever på mellemtrinnet og i udskolingen (high schools i USA), hvilket giver god mening, da flere af de ældre elever har mobiltelefoner. 
+
+Forskerne havde adgang til detaljerede data over brugen af mobiltelefoner på skolerne før og efter indførelsen af mobilforbuddet. De udnytter på smart vis den variation der på forhånd var i, hvor meget eleverne brugte mobiler på skoledage og særlige fridage til at måle effekten af at indføre mobilforbuddet.
+
+I det andet studie -- som netop er publiceret i det meget anerkendte og fagfællebedømte tidsskrift Quarterly Journal of Economics -- bruger forskerne detaljerede data fra et kinesisk universitet. Her viser de for det første, at brug af mobil apps smitter: Når studerende tilfældigvis blev sat på kollegieværelse med en der brugte mobilen meget, begyndte de også selv at bruge den mere. Endvidere kunne de se, at når de studerende så begyndte at bruge mobil apps mere, fik de dårligere karakterer på deres uddannelse. Værst var det for deres karakterer i idræt. Mobil-brugen gjorde, at de studerende brugte mindre tid i læsesalen og mere tid på værelset -- men sov dårligere. Faktisk kan de se, at de studerende endte med at få mere i løn, når de var færdige på universitetet, jo mindre de selv eller deres værelseskammerater brugte mobilen.
+
+Forskerne ser også på effekten af, at Kina allerede i 2019 forbød børn og unge under 18 at spille online spil mellem kl 22 om aftenen og klokken 8 om morgenen -- og i det hele taget højest måtte spille 1½ time på hverdage. Ud fra det vurderer de, at de studerende ville stige cirka en procent i løn, hvis Kina udvidede begrænsningen på online spil til de universitetsstuderende.
+
+De to helt nye studier suppleres af et arbejdspapir fra juli, som i et forsøg med næsten 17.000 elever i Indien viser, at når telefoner blev samlet ind i undervisningstiden, fik eleverne bedre karakterer. Effekten var størst for de svagere elever, nye studerende og dem uden for de naturvidenskabelige fag. Samtidig blev eleverne mere positive over for forbuddet, fordi de oplevede konkrete fordele ved det. Det tyder på, at et mobilforbud i klassen kan hjælpe særligt udsatte grupper og samtidig gøre eleverne mere åbne for lignende regler i fremtiden. 
+
+Disse nye forskningsresultater passer med megen af den tidligere forskning, som har vist at når unge bruger deres mobiler i undervisningstiden men til ting som ikke har med undervisningen at gøre, går det udover koncentrationen. Hjerneforskning viser, at hjernen bedst kan fokusere på én opgave ad gangen, fordi opmærksomhed og arbejdshukommelse er begrænsede ressourcer -- multitasking betyder derfor, at hjernen hele tiden må skifte fokus, hvilket gør koncentrationen svagere. En større international forskningssammenfatning finder netop, at det bliver det sværere at huske og forstå det man lærer, når man konstant skifter mellem at bruge sin telefoner og følge med i undervisningen. Dette kan ses på elever, som får lavere karakterer, dårligere forståelse af undervisningsmaterialet, og noter af ringere kvalitet, hvis de medie-multitasker i undervisningen. Multitasking påvirker dog ikke kun den enkelte elev, men kan også forstyrre klassekammeraterne omkring dem. 
+
+En begrænsning ved meget af den hidtidige forskning har imidlertid været, at det har været svært at afgøre, om de børn og unge, som brugte sociale medier mest og som trivedes dårligst havde dårligere trivsel på grund af deres brug af de sociale medier -- eller om de trivedes dårligere og derfor begyndte at bruge telefonen mere. Med de nye studier har vi fået bedre forskningsmæssigt grundlag for at sige, at brug af mobiler, sociale medier og online gaming i skoletiden er en dårlig ide. 
+
+Dermed ikke sagt, at alle skærme skal ud af skolen. Børn og unge har brug for at lære at bruge sociale medier og digitale teknologier på en god måde, og det er oplagt af skolen og lærerne er et sted at få hjælp til det. Det vigtige er nok, at de -- specielt i begyndelsen -- får hjælp til at styre deres forbrug, så det ikke er telefonen, der styrer dem. På sigt må det være idealet, at de selv kan styre hvornår og hvordan de vil bruge telefonen og andre devices.
+
+Studierne peger klart på, at der er en afsmittende effekt mellem unge: Hvis de andre i ens omgangskreds bruger de sociale medier meget, kommer man selv til at bruge det mere. Det ses også i endnu et nyt studie fra amerikanske universiteter, som viser, at de unge vil opleve det som en omkostning, hvis de selv skulle undvære sociale medier. Men hvis man kunne fjerne adgangen til de sociale medier for alle på deres universitet, så ser de det ikke længere som en omkostning -- så er de ligefrem villige til at betale penge for, at det ville ske. 
+
+Derfor er der rigtig god grund til, at man forældre og skoler aftaler nogle fælles regler for brug af mobiltelefoner -- eventuelt også i fritiden. For hvis alle er enige om at slukke for mobilen i nogle tidsrum, peger forskningen altså på, at det vil være til glæde for både det enkelte barn og for klassekammeraterne.  
+
+Og så skal vi måske også gribe i egen barm og arbejde for, at de studerende, vi underviser, skal få slukket skærmene. På Harvard Kennedy School er computere og tablets i undervisningen no-go. Måske kan vi give vores studerende et lille forspring på det danske arbejdsmarked -- og i den internationale konkurrence -- hvis vi hjælper dem til at lægge skærmene væk i timerne.
+
+---------------------------
+
+## De omtalte studier: 
+
+Allcott, H., Gentzkow, M., & Song, L. (2022). Digital Addiction. *American Economic Review*, 112(7), 2424–2463. https://doi.org/10.1257/aer.20210867
+
+Figlio, D. N. & Özek, U. (2025) "The Impact of Cellphone Bans in Schools on Student Outcomes: Evidence from Florida," *NBER Working Paper* no. 34388, https://doi.org/10.3386/w34388. 
+
+May, K. E., & Elder, A. D. (2018). Efficient, helpful, or distracting? A literature review of media multitasking in relation to academic performance. *International Journal of Educational Technology in Higher Education*, \textit{15}(1), 13. https://doi.org/10.1186/s41239-018-0096-z
+
+
+Barwick, P.J., Siyu Chen, Chao Fu, Teng Li (2025). Digital Distractions with Peer Influence: The Impact of Mobile App Usage on Academic and Labor Market Outcomes, *The Quarterly Journal of Economics*, https://doi.org/10.1093/qje/qjaf048
+
+
+Bursztyn, L., Handel, b., Jiménez-Durán, R.. & Roth, C. (2025). 
+When Product Markets Become Collective Traps: The Case of Social Media. *American Economic Review*, forthcoming, https://www.aeaweb.org/articles?id=10.1257/aer.20231468.
+
+
+&nbsp;
+
 # PMRC 2023 preconference workshop on Reviving Implementation Research in Public Administration
 
 ## [Call for papers](https://raw.githubusercontent.com/simon-calmar-andersen/simon-calmar-andersen.github.io/main/docs/PMRC%202023%20Pre-conference%20Call%20for%20papers%20Implementation.pdf)
 
+
+&nbsp;
+
+
 # Kunsten at prøve sig frem. Et kritisk blik på SVM-regeringens reformplaner
+
+**Kronik i Politiken d. 16. marts 2023** 
 
 af
 
